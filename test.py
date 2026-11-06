@@ -1,6 +1,5 @@
-print("hello world")
-list of numbers = [1,2,3,4,5,6,7,8,9,0]
-in 
+students=[["Alice",90,70], ["Bob",80,60], ["Charlie",85,65], ["David",95,75], ["Eve",75,55]]
+print(students[0]) 
 
 
 
