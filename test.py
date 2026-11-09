@@ -1,14 +1,56 @@
-students=[["Alice",90,70], ["Bob",80,60], ["Charlie",85,65], ["David",95,75], ["Eve",75,55]]
-print(students[0]) 
+# FizzBuzz program (for)
+for number in range(1, 101):
 
+    if number % 15 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
 
+# FizzBuzz program (while)
+count = 1
 
-Systeme (os, process, kernel, ....)
+while count < 101:
+    if count % 15 == 0:
+        print("FizzBuzz")
+    elif count % 3 == 0:
+        print("Fizz")
+    elif count % 5 == 0:
+        print("Buzz")
+    else:
+        print(count)
+    count += 1
 
-reseau (osi layer)
+# FizzBuzz program (break)
+count = 1
 
-Algorithm (python, complexity)
+while True:
+    if count > 50:
+        break
+    if count % 15 == 0:
+        print("FizzBuzz")
+    elif count % 3 == 0:
+        print("Fizz")
+    elif count % 5 == 0:
+        print("Buzz")
+    else:
+        print(count)
+    count += 1
 
-web development (html, css, js)
-
-database (mysql)
+# FizzBuzz program (continue)
+count = 0
+while count < 30:
+    count += 1
+    if count % 2 == 0:
+        continue
+    if count % 15 == 0:
+            print("FizzBuzz")
+    elif count % 3 == 0:
+            print("Fizz")
+    elif count % 5 == 0:
+            print("Buzz")
+    else:
+        print(count)
